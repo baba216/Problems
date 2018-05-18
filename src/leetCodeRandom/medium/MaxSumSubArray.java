@@ -1,4 +1,4 @@
-package dp;
+package leetCodeRandom.medium;
 
 import java.io.BufferedReader;
 import java.io.IOException;
