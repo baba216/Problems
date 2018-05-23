@@ -3,8 +3,8 @@ package leetCodeRandom.easy;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 
+//https://leetcode.com/problems/letter-case-permutation/description/
 public class LetterCasePermutation {
   public static void main(String[] args) {
     String input = "a1b2";

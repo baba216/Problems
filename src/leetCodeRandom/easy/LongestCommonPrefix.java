@@ -16,6 +16,9 @@ public class LongestCommonPrefix {
     System.out.println(result);
   }
 
+  /**
+   *  Hosrizontal Scanning
+   */
   private static String bestApproach(String[] strs) {
     if (strs.length == 0) {
       return "";
@@ -41,6 +44,9 @@ public class LongestCommonPrefix {
     return minString;
   }
 
+  /**
+   *  Vertical Scanning
+   */
   private static String process(String[] strs) {
     if (strs == null || strs.length == 0 || strs[0].length() == 0) {
       return "";
